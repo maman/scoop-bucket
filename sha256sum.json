@@ -1,9 +1,0 @@
-{
-  "homepage": "https://kanguru.zendesk.com/entries/21747773-SHA256-Checksum-Utility",
-  "version": "1.0.0",
-  "license": "BSD",
-  "hash": "4867ccab1c36f33dec005e83eef8dfb6d3b166941a72400aa3c963675c2a7dae",
-  "original_url": "https://kanguru.zendesk.com/attachments/token/0xdkf3ohvnbjyd4/?name=sha256sum.exe",
-  "url": "https://bitbucket.org/maman_/binaries/downloads/sha256sum.exe",
-  "bin": "sha256sum.exe"
-}
