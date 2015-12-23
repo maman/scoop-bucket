@@ -1,0 +1,30 @@
+{
+  "homepage": "https://developer.android.com/sdk",
+  "version": "24.4.1",
+  "license": "http://developer.android.com/sdk/terms.html",
+  "hash": "sha1:66b6a6433053c152b22bf8cab19c0f3fef4eba49",
+  "url": "http://dl.google.com/android/android-sdk_r24.4.1-windows.zip",
+  "extract_dir": "android-sdk-windows",
+  "bin": [
+    "tools//android.bat",
+    "tools//ddms.bat",
+    "tools//draw9patch.bat",
+    "tools//emulator.exe",
+    "tools//emulator-arm.exe",
+    "tools//emulator-x86.exe",
+    "tools//hierarchyviewer.bat",
+    "tools//lint.bat",
+    "tools//mksdcard.exe",
+    "tools//monitor.bat",
+    "tools//monkeyrunner.bat",
+    "tools//traceview.bat"
+  ],
+  "env_add_path": [
+    "platform-tools",
+    "build-tools//23.0.2"
+  ],
+  "env_set": {
+    "ANDROID_HOME": "$dir"
+  },
+  "notes": "Now run `android` command to install the actual SDK stuff. Please note that `android-platform-tools` and `android-build-tools` aren't yet installed. Install it via `android` command."
+}
